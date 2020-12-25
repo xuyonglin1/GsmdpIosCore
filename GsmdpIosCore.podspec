@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GsmdpIosCore"
-  spec.version      = "1.2"
+  spec.version      = "1.3"
   spec.summary      = "📱 IOS native device plugs."
   spec.description  = <<-DESC
 		📱 Provide IOS native device capability for front-end developers
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   
   spec.resources    = 'Source/Resources/Image/*.{jpg,mp4,png}'
   # 依赖frameworks
-  spec.frameworks = 'Foundation', 'UIKit', 'CoreLocation','Photos','AVFoundation', 'MessageUI
+  spec.frameworks = 'Foundation', 'UIKit', 'CoreLocation','Photos','AVFoundation', 'MessageUI'
   spec.dependency 'Alamofire'
   spec.dependency 'HandyJSON'
   spec.dependency 'SnapKit'

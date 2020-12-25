@@ -9,13 +9,13 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GsmdpIosCore"
-  spec.version      = "1.0.9"
+  spec.version      = "1.0"
   spec.summary      = "📱 IOS native device plugs."
   spec.description  = <<-DESC
 		📱 Provide IOS native device capability for front-end developers
                    DESC
 
-  spec.homepage     = "https://101.133.208.118/scm/gs-mdp/gs-mdp-ios-core.git"
+  spec.homepage     = "https://github.com/xuyonglin1/GsmdpIosCore.git"
  
   spec.license      = "MIT"
  
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.swift_version = "5"
 
-  spec.source       = { :git => "https://101.133.208.118/scm/gs-mdp/gs-mdp-ios-core.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/xuyonglin1/GsmdpIosCore.git", :tag => spec.version }
 
 
   spec.source_files  = "Source/**/*.{h,swift}"

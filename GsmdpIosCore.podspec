@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
  
   spec.author       = { "xuyonglin" => "504440913@qq.com" }
-  spec.platform     = :ios, "13.0"
+  spec.platform     = :ios, "14.0"
   spec.swift_version = "5"
 
   spec.source       = { :git => "https://github.com/xuyonglin1/GsmdpIosCore.git", :tag => spec.version }

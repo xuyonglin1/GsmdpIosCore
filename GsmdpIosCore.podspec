@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GsmdpIosCore"
-  spec.version      = "1.7"
+  spec.version      = "1.8"
   spec.summary      = "📱 IOS native device plugs."
   spec.description  = <<-DESC
 		📱 Provide IOS native device capability for front-end developers
